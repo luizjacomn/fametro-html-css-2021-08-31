@@ -1,0 +1,19 @@
+.banner {
+    height: 200px;
+    border-radius: 10px;
+}
+
+p {
+    font-weight: bold;
+}
+
+#personagens tbody td::before {
+    content: "- ";
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
